@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 #include "cube.hpp"
 
 #include "modloader/shared/modloader.hpp"
@@ -11,6 +13,7 @@
 
 Logger& getLogger();
 
+#include "UnityEngine/MonoBehaviour.hpp"
 #include "GlobalNamespace/NoteDebris.hpp"
 #include "UnityEngine/Color.hpp"
 #include "VRUIControls/VRPointer.hpp"
@@ -23,7 +26,7 @@ extern ModInfo modInfo;
 Cube* makeCube(CubeInfo info, QubesConfig& config, int index);
 DefaultCube* makeDefaultCube(CubeInfo info, QubesConfig& config, int index);
 
-// extern std::vector<QubesConfig> QubesConfigs; in modconfig.hpp
+// extern std::std::vector<QubesConfig> QubesConfigs; in modconfig.hpp
 extern DefaultCube* defaultCube;
 
 extern std::vector<Cube*> cubeArr;

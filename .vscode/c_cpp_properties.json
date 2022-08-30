@@ -8,16 +8,28 @@
                 "ID=\"playlistmanager\""
             ],
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/include/**",
-                "${workspaceFolder}/shared/**",
-                "${workspaceFolder}/extern/**"
+                "${workspaceFolder}/extern/includes/libil2cpp/il2cpp/libil2cpp",
+                "${workspaceFolder}/extern/includes/codegen/include",
+                "${workspaceFolder}/extern/includes",
+                "${workspaceFolder}/extern/includes/config-utils/shared",
+                "${workspaceFolder}/extern/includes/libil2cpp/il2cpp/external/google/sparsehash",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/shared",
+                "${workspaceFolder}",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.9/include",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/sources/cxx-stl/llvm-libc++/include",
+                "Z:/HeckQuest/android-ndk-r23-windows/android-ndk-r23/sources/cxx-stl/llvm-libc++abi/include",
+                "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/include",
+                "${default}"
             ],
             "name": "Quest",
-            "cStandard": "c11",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "clang-x64",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-arm64",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
         }
     ],
     "version": 4

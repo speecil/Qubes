@@ -1,0 +1,22 @@
+# ninja log v5
+57	367	6836023290590709	binaryAssets/closeActive.png.o	e16cf30a74cba2f
+57	367	6836023290590709	Z:/Qubes/binaryAssets/closeActive.png.o	e16cf30a74cba2f
+77	417	6836023290740726	Z:/Qubes/binaryAssets/lock.png.o	d5379ac1a646d53b
+121	417	6836023290870694	binaryAssets/unlockActive.png.o	3e2b9b0f73c171da
+101	416	6836023290540683	binaryAssets/unlock.png.o	135fc93ccce221b6
+101	416	6836023290540683	Z:/Qubes/binaryAssets/unlock.png.o	135fc93ccce221b6
+77	417	6836023290740726	binaryAssets/lock.png.o	d5379ac1a646d53b
+121	417	6836023290870694	Z:/Qubes/binaryAssets/unlockActive.png.o	3e2b9b0f73c171da
+84	451	6836023291460703	binaryAssets/lockActive.png.o	10b6801a8e4b4f36
+84	451	6836023291460703	Z:/Qubes/binaryAssets/lockActive.png.o	10b6801a8e4b4f36
+14	452	6836023291310688	binaryAssets/close.png.o	6b68d129b4bce868
+14	452	6836023291310688	Z:/Qubes/binaryAssets/close.png.o	6b68d129b4bce868
+538	968	6836023295850645	CMakeFiles/qubes.dir/extern/includes/beatsaber-hook/src/inline-hook/inlineHook.c.o	9f71f01e538a95dd
+971	1546	6836023300030739	CMakeFiles/qubes.dir/extern/includes/beatsaber-hook/src/inline-hook/relocate.c.o	4a65659cd0b9f1e9
+1546	4206	6836023328800340	CMakeFiles/qubes.dir/extern/includes/beatsaber-hook/src/inline-hook/And64InlineHook.cpp.o	8785686dad2f6a05
+111	41205	6836028929407552	CMakeFiles/qubes.dir/src/cubeconfig.cpp.o	5ceaf62f9468577
+34	41316	6836028931247594	CMakeFiles/qubes.dir/src/api.cpp.o	62e5951ff3577d9b
+124	43269	6836028951217333	CMakeFiles/qubes.dir/src/modconfig.cpp.o	f3363f1ee1ef0d17
+93	48228	6836029000726938	CMakeFiles/qubes.dir/src/cube.cpp.o	e2daa2f2e6f1f987
+42	20285	6836034079667156	CMakeFiles/qubes.dir/src/main.cpp.o	7673b2a1fd83b83c
+20287	24397	6836034117846892	libqubes.so	9f0ccffd0b715ebd

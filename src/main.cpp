@@ -9,7 +9,7 @@
 #include "GlobalNamespace/OVRInput_Button.hpp"
 #include "GlobalNamespace/HMMainThreadDispatcher.hpp"
 #include "GlobalNamespace/GameplayCoreInstaller.hpp"
-#include "GlobalNamespace/EffectPoolsManualInstaller.hpp"
+#include "GlobalNamespace/NoteDebrisPoolInstaller.hpp"
 
 #include "UnityEngine/Physics.hpp"
 #include "UnityEngine/Collider.hpp"
@@ -151,7 +151,7 @@ MAKE_HOOK_MATCH(SceneChanged, &UnityEngine::SceneManagement::SceneManager::Inter
         if(!haptics)
             haptics = UnityEngine::Resources::FindObjectsOfTypeAll<HapticFeedbackController*>()[0];
         if(!debrisPrefab)
-            debrisPrefab = UnityEngine::Resources::FindObjectsOfTypeAll<EffectPoolsManualInstaller*>()[0]->noteDebrisHDPrefab;
+            debrisPrefab = UnityEngine::Resources::FindObjectsOfTypeAll<NoteDebrisPoolInstaller*>()[0]->normalNoteDebrisHDPrefab;
     } else inGameplay = false;
 }
 

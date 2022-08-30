@@ -1,0 +1,4 @@
+Z:/Qubes/CMakeFiles/qubes.dir
+Z:/Qubes/CMakeFiles/asset_files.dir
+Z:/Qubes/CMakeFiles/edit_cache.dir
+Z:/Qubes/CMakeFiles/rebuild_cache.dir
