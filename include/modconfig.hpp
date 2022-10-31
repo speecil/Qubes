@@ -65,6 +65,10 @@ DECLARE_CLASS_CODEGEN(Qubes, ButtonSettings, HMUI::ViewController,
     DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::FindMethodUnsafe("HMUI", "ViewController", "DidActivate", 3), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 )
 
+DECLARE_CLASS_CODEGEN(Qubes, CreditsView, HMUI::ViewController,
+    DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::FindMethodUnsafe("HMUI", "ViewController", "DidActivate", 3), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+)
+
 DECLARE_CLASS_CODEGEN(Qubes, ModSettings, HMUI::FlowCoordinator,
     DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::FindMethodUnsafe("HMUI", "FlowCoordinator", "DidActivate", 3), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     DECLARE_OVERRIDE_METHOD(void, BackButtonWasPressed, il2cpp_utils::FindMethodUnsafe("HMUI", "FlowCoordinator", "BackButtonWasPressed", 1), HMUI::ViewController* topViewController);
@@ -72,6 +76,7 @@ DECLARE_CLASS_CODEGEN(Qubes, ModSettings, HMUI::FlowCoordinator,
     Qubes::GlobalSettings* globalSettings;
     Qubes::CreationSettings* creationSettings;
     Qubes::ButtonSettings* buttonSettings;
+    Qubes::CreditsView* credits;
 )
 #pragma endregion
 

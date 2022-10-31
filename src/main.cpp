@@ -10,11 +10,14 @@
 #include "GlobalNamespace/HMMainThreadDispatcher.hpp"
 #include "GlobalNamespace/GameplayCoreInstaller.hpp"
 #include "GlobalNamespace/NoteDebrisPoolInstaller.hpp"
+#include "GlobalNamespace/NoteDebris.hpp"
 
 #include "UnityEngine/Physics.hpp"
 #include "UnityEngine/Collider.hpp"
 #include "UnityEngine/Random.hpp"
 #include "UnityEngine/MaterialPropertyBlock.hpp"
+#include "GlobalNamespace/PauseController.hpp"
+#include "GlobalNamespace/PauseMenuManager.hpp"
 #include "GlobalNamespace/PauseAnimationController.hpp"
 #include "GlobalNamespace/ColorManager.hpp"
 #include "GlobalNamespace/ColorType.hpp"
@@ -273,11 +276,11 @@ MAKE_HOOK_MATCH(AnUpdate, &HMMainThreadDispatcher::Update, void, HMMainThreadDis
 
 MAKE_HOOK_MATCH(Pause, &PauseController::Pause, void, PauseController* self) {
     Pause(self);
-    // get pointer every time, since it changes in menu (and also every pause or something)
-    auto arr = UnityEngine::Resources::FindObjectsOfTypeAll<VRUIControls::VRPointer*>();
-    if(arr.Length() < 2)
-        return;
-    pointer = arr[1];
+    // this crashes it and i have no clue why, its not *too* annoying so im just leaving it
+    // can be worked around by pausing using a qube rather than the pause button
+    //getLogger().info("Attempting to get the pointer on pause");
+    //pointer = UnityEngine::Resources::FindObjectsOfTypeAll<VRUIControls::VRPointer*>();
+    //getLogger().info("Success");;
     inMenu = true;
 }
 

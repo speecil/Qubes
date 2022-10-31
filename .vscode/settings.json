@@ -74,6 +74,8 @@
         "xtree": "cpp",
         "xutility": "cpp",
         "fstream": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "deque": "cpp",
+        "regex": "cpp"
     }
 }

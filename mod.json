@@ -2,34 +2,34 @@
   "_QPVersion": "0.1.1",
   "name": "Qubes",
   "id": "qubes",
-  "author": "Original: Metalit. Updated by: Unifox(He/Him)#5654",
-  "version": "1.3.0",
+  "author": "Metalit, speecil",
+  "version": "1.3.1",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.24.0",
-  "description": "Highly customizable Qubes(tm) that you can play with. Now maintained by Unifox(He/Him)#5654 on discord.",
+  "packageVersion": "1.25.1",
+  "description": "Highly customizable Qubes(tm) that you can play with. Currently updated by speecil",
   "coverImage": "cover.png",
   "dependencies": [
     {
-      "version": "^0.15.18",
+      "version": "^0.15.21",
       "id": "custom-types",
-      "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.7/CustomTypes.qmod"
+      "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.21/CustomTypes.qmod"
     },
     {
-      "version": "^0.25.0",
+      "version": "^0.28.0",
       "id": "codegen",
-      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.19.3/Codegen.qmod"
+      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.28.0/Codegen.qmod"
     },
     {
       "version": "^0.16.4",
       "id": "questui",
-      "downloadIfMissing": "https://github.com/darknight1050/questui/releases/download/v0.13.1/QuestUI.qmod"
+      "downloadIfMissing": "https://github.com/darknight1050/questui/releases/download/v0.16.4/QuestUI.qmod"
     }
   ],
   "modFiles": [
     "libqubes.so"
   ],
   "libraryFiles": [
-    "libbeatsaber-hook_3_12_0.so"
+    "libbeatsaber-hook_3_14_0.so"
   ],
   "fileCopies": [],
   "copyExtensions": []
